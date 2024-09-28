@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+</head>
+<body> <script>
+//   <!-- const fruit="apple"
+//   switch(fruit){
+//    case'banana':
+//    console.log("I have to pay 20 rs");
+//    break;
+//    case'apple':
+//    console.log("I have to pay 100 rs");
+//    break;
+//    case'mango':
+//    console.log("I have to pay 150 rs");
+//    break;
+//    default:
+//       console.log("Invalid input");
+//    } -->
+  
+//   let num=prompt("enter a number:");
+//   if  (num%5==0){
+//    console.log("it is divisible by 5 ");
+//   }else{
+//    console.log("it is not divisible ");
+//   }
+  
+//  let marks=90;
+//  if (marks>=80&&marks<=100){
+//    console.log("A grade");}
+//    else if(marks>=70&&marks<=89){
+//    console.log("B grade");}
+// else if(marks>=60&&marks<=69){
+//    console.log("C grade");}
+// else if(marks>=50&&marks<=59){
+//    console.log("D grade");}
+//   else{
+//       console.log("F grade");
+//   }
+
+// let num=9;let i=1; let table;
+// while(i<=10){
+// table=num*i;
+// console.log(table);
+//  i++;
+// }
+// let i=1;
+// let num=8;
+// do{
+// console.log(num*i);
+// i++;
+// }while(i<=10);
+
+// //for of loop
+// let str='Nandani';
+// let size=0;
+// for(let val of str){
+//    console.log("val=",val);
+//    size++;
+// }console.log(size);
+
+//for in loop
+// let student={
+//    name:"nandani verma",
+//    age:21,
+//    cgpa:7.89,
+//    ispass:true,
+// };
+// for(let key in student)
+// console.log("key=",key,"value=",student[key]);
+
+// let num=1;
+// while(num<=100){
+//    num++;
+   
+// if(num%2==0){
+//    console.log(num);
+// }
+// }
+
+// let num=45;
+// let userguess=prompt('Enter a num: ');
+// console.log(num);
+// while(num!=userguess){
+//    userguess=prompt("guess again");
+// }
+// console.log("you guessed it right")
+
+// template literalas
+// let name="nandani"
+// console.log(`Hello ${name}` )//backticks
+// `string text ${experssion}string text`//string interpolation
+// \n next line,\t tab space //1 unit hoti h //
+
+// immuteable 
+// let name="     Apna Collage     "
+// console.log(name.trim())
+
+// let name="Apna Collage"
+// console.log(name.slice(0,4))
+
+// let name="nandani"
+// let surname="verma"
+// console.log(name.concat(surname))
+
+// let sentence="hello my name is tanu"
+// console.log(sentence.replace("tanu","nandani"));
+// console.log(sentence.charAt(3))
+
+// let username=prompt( "enter your name:");
+// let strsize=username.length;
+// console.log(`@${username}${strsize}`);
+
+// let marks=[67,87,98,89,79];
+// console.log(marks[3]);
+
+//  let heros=["ironman","superman","thor","hulk","spiderman"]
+// // //for
+// // for( let i=0;i<heors.length;i++){
+// //    console.log(heors[i]);
+// // }
+// //for of
+// for(let heor of  heros){
+//    console.log(heor)
+// }
+// let marks=[67,87,98,89,79];
+// let sum=0;
+// for(let i=0;i<marks.length;i++){
+// sum=sum+marks[i];
+// console.log(sum);}
+// let avg=sum/6
+// console.log(avg);
+
+
+// let items=[250,645,300,900,50];
+//for of
+// let i=0;
+// for(let val of items){
+//   let offer=val/10;
+//   items[i]=items[i]-offer;
+//   console.log( items[i]);
+//    i++;
+// }
+ 
+//for
+// for(let i=0;i<items.length;i++){
+//   let offer =  items[i]/10;
+//   items[i]-=offer;
+// }console.log(items[i]);
+
+// let fooditems=["burger","pizza","noddles","pasta","juice"]
+// fooditems.push("coldrinks","sandwich");
+// // console.log(fooditems);
+// // fooditems.pop();
+// // console.log(fooditems);
+// console.log(fooditems.toString());
+
+// let heros=["ironman","thor","hulk","spiderman"];
+// heros.shift()
+// let dcheros=["superman",'batman'];
+// dcheros.unshift('wonder women')
+// let all=heros.concat(dcheros);
+// console.log(all);
+
+// let student=["nandani","yash","tanu","babu","prince","anjali"];
+// // let hum=student.slice(1,4);console.log(hum);
+// student.splice(3,1,"neha")
+
+function countvowel(str){
+    let count=0;
+      for(const char of str){
+    if(char==="a"||char==="e"||char==="i"||char==="o"||char==="u"){
+      count++;
+   }
+   }console.log(count);
+}
+
+  </script>
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <style>
+      *{margin: 0;
+      padding: 0;}
+      .you{
+         width:100vw;
+         height: 100vh;
+         background: royalblue;
+      }
+      .box{
+         width: 300px;
+         /* background: blueviolet; */
+         color: burlywood;
+         height: 300px;
+         display: flex;
+         justify-content: center;
+         align-self:center;
+         /* animation-name: widthAnime;
+         animation-duration: 2s;
+         animation-delay: 1s;
+         animation-timing-function: ease-in;
+         animation-iteration-count: 3;
+         animation-direction: alternate-reverse; */
+         animation:widthAnime 3s ease-in-out 0.5s 4 alternate;
+         animation:widthAnime2 3s ease-in-out 0.5s 4 alternate;
+      
+      }
+      @keyframes widthAnime {
+         from{height: 50px;
+            width: 30px;}
+         to{width: 100vw;
+         height:100vh}
+         
+      }
+      @keyframes widthAnime2 {
+         0%{height: 50px;
+            width: 30px;}
+         20%{width: 100px;
+         height:100px}
+         80%{width: 900px;
+         height:900px}
+
+         
+      }
+   </style>
+</head>
+<body>
+   <div class="you">
+      <div class="box">
+      <img src="https://media.istockphoto.com/id/1252455620/photo/golden-retriever-dog.jpg?s=612x612&w=0&k=20&c=3KhqrRiCyZo-RWUeWihuJ5n-qRH1MfvEboFpf5PvKFg=" alt="error"></div>
+   </div>
+</body>
+</html>

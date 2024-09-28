@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>javascript</title>
+</head>
+<body> <div id="container">
+   <button class="click" onclick="clicked()">click here</button>
+</div>
+    </body>
+    <div id="gud">
+    <h1>hii tanu</h1></div>
+    <script>
+//  function clicked(){
+//    document.write("the button was clicked")
+//  }
+//  window.onload=function()
+//  {
+//    console.log('the document was load')
+//  }
+// container.addEventListener('click',function(){
+//    console.log("clicked on container")
+// // })
+//    container.addEventListener('mouseover',function(){
+//    console.log("onmouseover on container")
+//    })
+//    container.addEventListener('mouseout',function(){
+//    console.log("onmouseover out container")
+//    })
+/*let prevHTML=document.querySelectorAll('.container')[1].innerHTML;
+   container.addEventListener('mouseup',function(){
+  document.querySelectorAll('container')[1].innerHTML = preHTML;
+   console.log("onmouseover up container")
+   }) 
+   
+     container.addEventListener('mousedown',function(){
+      document.querySelectorAll('.container')[1].innerHTML='<b>this is clicked'
+   console.log("onmouseover down container")
+   })
+235/*
+
+    
+// 1 ways to print message in js
+//    console.log("hii nandani")
+// document.write("this is a document written by me")
+// alert("this is an message for me" )
+
+// 2 this is js console api
+//    document.getElementsByTagName('h1')
+//    console.log("hii nandani")
+// console.warn("this is a warning")
+// console.error("this is an error")
+// console.clear()
+/*this is datad type
+var num1 = 34;
+var num2 =22.76;
+console.log(num1+num2);
+
+var str1= "this is a string";
+var str2='this is also a string ';
+*/
+// object
+// var marks= { ravi: 87 , vishal:34,beetu:99}
+//  console.log(marks); 
+// //booleans
+// var a =true;
+// var b =false;
+// console.log(a,b);
+// null or undefined are different
+
+/*
+there are two type of databtypes
+1.primitive data types: undefined , null,num,string,boolean,symbol
+2.reference data type:arrays and objects
+*/
+// Array
+// var arr = [ 1,5,3,7,8 ]
+// console.log(arr)
+
+// arthematic operator
+// var a = 100;
+// var b = 300;
+// console.log(a+b );
+// console.log(a-b );
+// console.log(a*b );
+// console.log(a/b );
+// console.log(a%b );
+  
+//assignment opertor
+// var c=b;
+// c += 2 ;//c = c+2
+// c -= 2 ; c = c-2
+// c *= 2 ;
+// c /= 2 ;
+
+// comparsion opertor
+// var x = 34 ;
+// var y = 45;
+// console.log(x==y);
+// console.log(x>=y);
+// console.log(x<=y);
+// console.log(x<y);
+// console.log(x>y);
+
+/*logical operator
+//console.log(true && true)
+console.log(true && fasle)
+console.log(false && fasle)
+console.log(fasle && true)
+
+bollean operator
+console.log(true  || true)
+console.log(true  || fasle)
+console.log(false || fasle)
+console.log(fasle || true)
+
+logical  not
+console.log(!false)
+console.log(!true)*/
+
+// function avg(a,b){
+//   c=(a+b)/2;
+//   return c;
+// }
+// c1 = avg (4,5);
+// console.log(c1);
+
+//   var age = 5;
+//   if(age>18){ console.log("u r an adult")}
+//   else if(age<18&&age>14)
+//    {console.log("you are a teen")}
+//   else {
+//    console.log ("u r kid")}
+
+var arr =[5,8,9,4,3,2]
+// for(var i=0;i<arr.length;i++){
+  // if(i==2){break;}
+   //continue (isko chod kr baki sb print kr do)
+// console.log(arr[i]);}
+
+/*arr.forEach(function(element){
+)   console.log(element);
+})
+*/
+//  let j =0;
+//  while(j<arr.length){
+//    console.log(arr[j]);
+//    j++;
+//  }
+// let j = 0;
+//  do{
+//       console.log(arr[j])
+//       j++;
+//  }
+//  while(j<arr.length);
+
+/*let myarr =[8,30,'harri',"radhe","krishna",80];
+// console.log(myarr.length);
+// myarr.pop();
+// myarr.push("shivji");
+
+//  myarr.shift(); 
+//myarr.sort();
+const newlen=myarr.unshift("harry")
+console.log(newlen)
+console.log(myarr);*/
+// let mylove="hare krrishna hare krishna krishna krishna krishna hare hare hare shyam hare shyam shyam shyam hare hare";
+// console.log(mylove.length)
+// console.log(mylove.indexOf("krishna"))
+// console.log(mylove.lastIndexOf("krishna"))
+// console.log(mylove.slice(2,9))
+// d = mylove.replace("hare","radhe")
+
+// dom manipulation
+// let elem= document.getElementById("click");
+// console.log(elem);
+
+// let elemclass= document.getElementsByClassName("container")
+// console.log(elemclass);
+// elemclass[0].style.background="white";
+// elemclass[0].classList.add("bg-yellow")
+// elemclass[0].classList.add("text-success")
+// console.log(elem.innerHTML);
+// console.log(elem.innerText);
+// console.log(elemclass[0].innerHTML);
+// // console.log(elemclass[0].innerText);
+// d = document.getElementsByTagName('div')
+// console.log(d)
+// createdElement = document.createElement('p');
+// createdElement.innerText="hey this is a para created by document.createElement";
+// d[0].appendChild(createdElement);
+// // createdElement2 = document.createElement('italic');
+// // createdElement2.innerText="hey this is a italic font";
+// // d[0].replaceChild(createdElement2,createdElement);
+// createdElement2 = document.createElement('h1');
+// createdElement2.innerText="hey this is a para ";
+// d[0].insertBefore(createdElement2,createdElement);
+// // removeChild(element)
+// sel=document.querySelector('container')
+// console.log(sel)
+// sel=document.querySelectorAll('container')
+// console.log(sel)
+
+//Arrow function
+// function summ(a,b){
+//    returna+b;
+// }
+// summ=(a,b)=>{
+//    return a+b;
+// }
+// logkro=()=>{
+
+//    console.log('i am your log')
+// }
+// clr=setTimeout(logkro,2000)
+
+
+
+
+</script>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+   <title>object</title>
+</head>
+<body>
+   <script>
+
+// let product={
+//    name:'fan',
+//    price:1000,
+//    company:'bajaj',
+//    displayprice:function(){
+//       console.log(`price of the product is ${this.price}`);
+//    }
+// };
+//dot
+// product.name='laptop';
+// console.log(product);
+   
+   //bracket
+//    let propertyname='name'
+// console.log(product[propertyname]);
+   
+   // product.displayprice();
+
+   // console.log('hii nandani'.toUpperCase());
+
+   let x=3;
+   let y=x;
+   console.log(`x=${x},y=${y}`)
+   x=8;
+   console.log(`x=${x},y=${y}`)//actual value 
+
+   let a={num:4};
+   let b=a;
+   console.log(`a=${a.num},b= ${b.num}`);
+   a.num=9;
+   console.log(`a=${a.num},b= ${b.num}`);
+   //reference change honge not actual value 
+
+
+   // let p={pop:`ijko`};
+   // let q={pop:`ijko`};
+   // console.log(p==q)false
+   // console.log(p===q)false 
+   //becuse address is different no matter even it is same 
+   //if we want to compare then make a deep value function for it
+ 
+ const profile={
+   username:"nandani",
+   post:195,
+   followers:59500,
+   following:3,
+   isfollow:"true",
+ }
+ console.log(profile["isfollow"]);
+ 
+ 
+ </script>
+</body>
+</html>

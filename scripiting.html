@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <!-- <link rel="stylesheet" href="script.css"> -->
+</head>
+<body> <p id="name"></p>
+   <!-- <button id="btn1" class="button" onclick="alert('item has been added to cart')">Add to cart</button> 
+    <button id="btn2" class="button"onclick="alert('item has been added to wishlist')">❤️wishlist</button>
+   <script src="script.js"> -->
+     <script>
+   let bagvalue=(15599-(10/100*15599))-272;
+   let jeansvalue=(2499-(10/100*2499))-29;
+  let totalval=Math.round((jeansvalue+bagvalue+25+20)*118/100);
+  let bagsummary=`your total value is ${totalval}`;
+  console.log(bagsummary);
+ let i=5;
+ i=i+4;
+ console.log(i);
+let a=2;
+let b=3;
+//swap withot 3 varbile
+a=a+b;
+b=a-b;
+a=a-b;
+console.log(a);
+console.log(b);
+const myname='nandani';
+document.querySelector('#name').innerText= myname;
+const gst=18;
+let cartval=`Your final bag value is:${((15599-(10/100*15599)) - 272+(2499-(41/100*2499))-29+25+20)*100+gst}`
+console.log(cartval)
+// console.log(5>6);
+// console.log(5=='5');
+// console.log(5=='5.0');
+// console.log(5==='5');
+// console.log(5==='5.0');
+//if else ladder
+// let age=18;
+// if(age>18){
+//   console.log('you can go on the trip');
+// }
+// else if(age===18)
+//   {console.log('you can go on trip with parents permission');
+// }
+// else{
+//   console.log('you cannot go');
+// }
+
+
+// let age=76
+// if(age<18 && age>65){
+//   console.log('you can watch movies');
+// }
+// else{
+//   console.log('you watch cartoon');
+// }
+
+//block scope var
+// let age=13;
+// if(age>18){
+//   let user_message='you can drive';
+//   console.log(user_message);
+// }else{
+//   let user_message='you drive bicycle';
+//   console.log(user_message);
+// }
+// console.log(user_message);  //this gives error because  variable scope can be used btw { } only      
+
+//false hogi agar 0,null,undefinded  ,false ,NaN ;
+// let anm=0/'horse';
+// console.log(anm);NaN
+
+//guard opertor
+// let age;
+// let finalage=age||18;
+// console.log(age);
+// console.log(finalage);
+
+//deafault opertor
+// let age=0;
+// let finalage=age??18;
+// console.log(age);
+// console.log(finalage);
+
+//practise
+// let age=13;
+// let gender='male';
+// let finaldiscount;
+// if(age<=5){
+//   finaldiscount=100;
+// }else if(gender==='female'){
+//   finaldiscount=50;
+// }else if(age<=8){
+// finaldiscount=50
+// }else if(age>=65){
+//   finaldiscount=30;
+// }else{
+//   finaldiscount=0;
+// }
+
+// console.log(finaldiscount);
+//  
+// let num;
+// function table( num){
+// for(let i=1;i<=10;i++){
+//   let result=i*num;
+//    console.log(num +'x'+i +'='+result);
+// }return result;
+// }
+// table(5);
+
+//
+// function generatrandomnum(){
+//   let random=Math.random();
+//   let random_num=random*3;
+//   return random_num;
+// }
+// console.log(generatrandomnum());
+
+
+function greeting(name='pyare'){
+  console.log(`Namastr ${name} uncle`) ;
+}
+greeting(krishn);
+
+</script>
+ 
+</body>
+</html>

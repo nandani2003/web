@@ -1,0 +1,10 @@
+#box{
+   width: 340px;
+   height: 420px;
+   background-color: rgb(29, 200, 200);
+   transition-property: all;
+   transition-timing-function:ease-in-out;
+   transition-duration: 2s;
+   transition-delay: 0s;
+   flex-shrink: unset;
+}
