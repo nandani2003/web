@@ -59,4 +59,12 @@ console.log(a.tHead)
 // })
 // console.log(c);
 
-
+let str1="my name is nandani";
+let counter=0;
+for(let i=0;i<str1.length;i++)
+ {
+  if(str1.charAt(i)<=1){
+    counter++;
+    console.log(`${str1.charAt}is occuring ${counter}`)
+  }
+ }
